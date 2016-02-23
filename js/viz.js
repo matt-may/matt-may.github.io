@@ -87,10 +87,9 @@
             }
 
             // Prepare our nodes array.
-            //
-            // * Uses ECMAScript 6 arrow function.
-            //
-            var nodes = Object.keys(distinctNodes).map((key, value) => ({ node: value, name: key }));
+            var nodes = Object.keys(distinctNodes).map(function (key, value) {
+                return { node: value, name: key };
+            });
 
             sankey
               .nodes(nodes)
