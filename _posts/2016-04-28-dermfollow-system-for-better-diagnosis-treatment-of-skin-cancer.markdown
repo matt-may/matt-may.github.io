@@ -1,7 +1,7 @@
 ---
 layout: post
 title:  "DermFollow: Better Diagnosis and Treatment of Skin Cancer"
-date:   2016-02-22 20:14:28
+date:   2016-04-28 18:04:00
 categories: visualization javascript d3 neural-networks
 ---
 
