@@ -2,7 +2,7 @@
 layout: post
 title:  "DermFollow: Better Diagnosis and Treatment of Skin Cancer"
 date:   2016-02-22 20:14:28
-categories: visualization javascript d3 "neural networks"
+categories: visualization javascript d3 neural-networks
 ---
 
 Working with a team at Georgia Tech, I helped build DermFollow, a web
@@ -19,5 +19,6 @@ patient’s images superimposed over the relevant point on the body. It also
 performs patient risk scoring, and presents an interactive, user-friendly
 interface for both the physician and patient.
 
-[View the report.](pub/dermfollow_final_report.pdf)
-[View the poster.](pub/dermfollow_poster.pdf)
+[View the report.](/pub/dermfollow_final_report.pdf)
+
+[View the poster.](/pub/dermfollow_poster.pdf)
