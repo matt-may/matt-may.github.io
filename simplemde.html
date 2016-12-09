@@ -11,9 +11,17 @@
 
 </style>
 <script>
-var simplemde = new SimpleMDE({
-  inputStyle: 'textarea'
-});
+var divs = document.getElementsByTagName("div");
+for(var i = 0; i < divs.length; i++){
+   //do something to each div like
+   divs[i].setAttribute("autocorrect", "on");
+}
+var simplemde = new SimpleMDE();
+var divs = document.getElementsByTagName("div");
+for(var i = 0; i < divs.length; i++){
+   //do something to each div like
+   divs[i].setAttribute("autocorrect", "on");
+}
 </script>
 </body>
 </html>
