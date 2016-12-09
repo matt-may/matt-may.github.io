@@ -11,17 +11,24 @@
 
 </style>
 <script>
-var divs = document.getElementsByTagName("div");
-for(var i = 0; i < divs.length; i++){
-   //do something to each div like
-   divs[i].setAttribute("autocorrect", "on");
-}
+// var divs = document.getElementsByTagName("div");
+// for(var i = 0; i < divs.length; i++){
+//    //do something to each div like
+//    divs[i].setAttribute("autocorrect", "on");
+// }
 var simplemde = new SimpleMDE();
-var divs = document.getElementsByTagName("div");
+var divs = document.getElementsByTagName("*");
 for(var i = 0; i < divs.length; i++){
    //do something to each div like
    divs[i].setAttribute("autocorrect", "on");
 }
+setInterval(() => {
+  var divs = document.getElementsByTagName("*");
+  for(var i = 0; i < divs.length; i++){
+     //do something to each div like
+     divs[i].setAttribute("autocorrect", "on");
+  }
+}, 1000)
 </script>
 </body>
 </html>
