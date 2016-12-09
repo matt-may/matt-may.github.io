@@ -6,29 +6,27 @@
 <script src="js/simplemde.min.js"></script>
 </head>
 <body>
-<textarea autocorrect="on" autocapitalization="on"></textarea>
-<style>
-
-</style>
-<script>
-// var divs = document.getElementsByTagName("div");
-// for(var i = 0; i < divs.length; i++){
-//    //do something to each div like
-//    divs[i].setAttribute("autocorrect", "on");
-// }
-var simplemde = new SimpleMDE();
-var divs = document.getElementsByTagName("*");
-for(var i = 0; i < divs.length; i++){
-   //do something to each div like
-   divs[i].setAttribute("autocorrect", "on");
-}
-setInterval(function() {
-  var divs = document.getElementsByTagName("*");
-  for(var i = 0; i < divs.length; i++){
-     //do something to each div like
-     divs[i].setAttribute("autocorrect", "on");
-  }
-}, 1000)
 </script>
+<!-- Include stylesheet -->
+<link href="https://cdn.quilljs.com/1.1.6/quill.snow.css" rel="stylesheet">
+
+<!-- Create the editor container -->
+<div id="editor">
+  <p>Hello World!</p>
+  <p>Some initial <strong>bold</strong> text</p>
+  <p><br></p>
+</div>
+
+<!-- Include the Quill library -->
+<script src="https://cdn.quilljs.com/1.1.6/quill.js"></script>
+
+<!-- Initialize Quill editor -->
+<script>
+  var quill = new Quill('#editor', {
+    placeholder: 'Compose an epic...',
+    theme: 'snow'
+  });
+</script>
+
 </body>
 </html>
