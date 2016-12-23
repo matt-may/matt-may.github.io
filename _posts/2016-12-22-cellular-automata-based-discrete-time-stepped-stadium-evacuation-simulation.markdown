@@ -2,7 +2,7 @@
 layout: post
 title:  "Using Cellular Automata for Stochastic Simulation of Stadium Evacuation"
 date:   2016-12-22 18:04:00
-categories: javascript react rails
+categories: automata stochastic simulation python
 ---
 
 Cellular automata are a fascinating subject of subject and have captivated
@@ -30,4 +30,4 @@ select the one which yielded the fastest evacuation of the area. Parameters
 include things like closing intersections to vehicles, to allow uninhibited
 pedestrian traffic. In the end, we were able to determine a key intersection
 which needed to be open in order to promote a fast evacuation. For the full
-report and full code, [click here to view the Github repository](https://github.com/gatech-cse6730/checkpoint).
+report and Python code, [click here to view the Github repository](https://github.com/gatech-cse6730/checkpoint).
