@@ -3,7 +3,7 @@ title: Matt May
 email: maym at gatech dot edu
 description: > # this means to ignore newlines until "baseurl:"
 baseurl: "" # the subpath of your site, e.g. /blog/
-url: "http://mattmay.us" # the base hostname & protocol for your site
+url: "http://matt-may.github.io" # the base hostname & protocol for your site
 # twitter_username: 
 github_username:  matt-may
 
