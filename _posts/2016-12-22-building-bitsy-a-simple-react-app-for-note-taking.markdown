@@ -19,7 +19,7 @@ Evernote, but relatively more minimal. It has a simple rich text editor that
 allows you to create notes and add simple styling. It also lets you easily page
 through all your past notes and quickly search them.
 
-![Alt text](/pub/bitsy.png)
+![Bitsy home screen](/pub/bitsy.png)
 
 While it took a little getting used to, once I fully groked React's
 unidirectional data flow and its penchant towards immutability, development
