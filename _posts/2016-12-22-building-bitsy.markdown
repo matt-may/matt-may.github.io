@@ -35,9 +35,8 @@ It will be fascinating to see what React looks like in five years. The rise of
 functional influences and declarative programming in front-end development
 seem almost universally a good thing, coming from someone who has needed
 to maintain 1000-line PHP scripts. The focus on small, re-usable components
-that contain encapsulated state and that receive their properties from
-components above them in the hierarchy does seem to promote more maintainable
-code.
+that manage their own state and that receive their properties from components
+above them in the hierarchy does seem to promote more maintainable code.
 
 For Bitsy, the frontend and backend were developed relatively separately;
 however, the frontend React single-page application is embedded within the
