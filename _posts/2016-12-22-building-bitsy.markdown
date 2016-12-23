@@ -20,7 +20,7 @@ allows you to create notes and add simple styling. It also lets you easily page
 through all your past notes and quickly search them. My motivation to create it
 was that Notes, while a wonderful little app, is not accessible via the Web
 and thus can't be accessed on Windows or other non-Apple devices. I also hadn't
-enjoyed the user experience of Evernote, finding it almost too minimalistic and
+enjoyed the user experience of Evernote, finding it lacking personality and
 not wanting to upgrade to a paid plan.
 
 While it took a little getting used to, once I fully groked React's
