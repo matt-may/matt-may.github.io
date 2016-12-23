@@ -1,6 +1,6 @@
 ---
 layout: post
-title:  "Bitsy: A simple React app for note-taking"
+title:  "Bitsy: A Simple React App for Note-Taking"
 date:   2016-12-22 18:04:00
 categories: javascript react rails
 ---
