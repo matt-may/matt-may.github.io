@@ -17,11 +17,7 @@ To explore React (which I'd been wanting to do for a while), I built a little
 app called [Bitsy](https://bitsy.pro). Bitsy is similar to Apple's Notes or
 Evernote, but relatively more minimal. It has a simple rich text editor that
 allows you to create notes and add simple styling. It also lets you easily page
-through all your past notes and quickly search them. My motivation to create it
-was that Notes, while a wonderful little app, is not accessible via the Web
-and thus can't be accessed on Windows or other non-Apple devices. I also hadn't
-enjoyed the user experience of Evernote, finding it lacking personality and
-not wanting to upgrade to a paid plan.
+through all your past notes and quickly search them.
 
 While it took a little getting used to, once I fully groked React's
 unidirectional data flow and its penchant towards immutability, development
