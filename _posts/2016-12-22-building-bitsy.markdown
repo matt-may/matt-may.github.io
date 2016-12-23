@@ -10,8 +10,8 @@ extent that it is now expected knowledge for a front-end developer. React brings
 some interesting concepts to the world of front-end development, which has
 traditionally been quite messy and hacky. Facebook's enormous scale has
 required they take some dramatically different approaches to development to
-keep things manageable with the large number of developers working on the
-same codebase.
+keep things manageable with the large number of developers they have working on
+the same codebase.
 
 To explore React (which I'd been wanting to do for a while), I built a little
 app called [Bitsy](https://bitsy.pro). Bitsy is similar to Apple's Notes or
