@@ -1,0 +1,58 @@
+<html>
+<head>
+  <script
+  src="https://code.jquery.com/jquery-3.3.1.min.js"
+  integrity="sha256-FgpCb/KJQlLNfOu91ta32o/NMZxltwRo8QtmkMRdAu8="
+  crossorigin="anonymous"></script>
+  <style>
+    html,body {
+      margin: 0px;
+    }
+    #nanner h1,
+    #nanner img {
+      margin-bottom: 100px;
+    }
+  </style>
+  <script>
+    $(document).ready(function () {
+      var numBanana = 0,
+          startWidth = 200;
+      $('#kboard').click(function () {
+        $('#numbananas').text(numBanana++);
+        $('#nanner').css('display', 'inline-block');
+        $('#nanner').show();
+
+        if (numBanana === 100) {
+          $('body').html('u win. dummy.');
+        }
+        else if (numBanana % 10 === 0) {
+          startWidth += (numBanana);
+        }
+        else {
+          startWidth++;
+        }
+
+        var newNanner = $('#bananaimg').clone().css('width', startWidth);
+
+        $('#bananaimg').replaceWith(newNanner);
+      });
+    });
+  </script>
+</head>
+<body>
+  <div style="width:100%;">
+    <div style="width:50%;display:inline-block;margin:0;">
+      <h1>Type monkey, type!</h1>
+      <img src="https://www.logitechg.com/assets/64244/13/g810-orion-spectrum-rgb-mechanical-keyboard.png"
+           id="kboard"
+           style="width:100%;"></img>
+    </div>
+    <div id="nanner"
+         style="width:49%;display:none;margin:0;text-align:center;">
+      <h1>Good Boy! You've earned <span id="numbananas"></span> 'nanners. <br>Keep typing!</h1>
+      <img src="https://vignette.wikia.nocookie.net/moom/images/e/e8/Golden-Banana-PNG.png/revision/latest?cb=20170828152614"
+           id="bananaimg"></img>
+    </div>
+  </div>
+</body>
+</html>
